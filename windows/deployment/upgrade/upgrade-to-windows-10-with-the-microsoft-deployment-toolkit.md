@@ -11,7 +11,8 @@ ms.mktglfcycl: deploy
 ms.localizationpriority: medium
 ms.sitesec: library
 ms.pagetype: mdt
-audience: itproauthor: greg-lindsay
+audience: itpro
+author: greg-lindsay
 ms.topic: article
 ---
 
@@ -82,7 +83,7 @@ Figure 3. The task sequence to upgrade to Windows 10.
 
 ## Perform the Windows 10 upgrade
 
-To initiate the in-place upgrade, perform the following steps on PC0003 (currently running Windows 7 SP1).
+To initiate the in-place upgrade, perform the following steps on PC0001 (currently running Windows 7 SP1).
 
 1. Start the MDT deployment wizard by running the following command: **\\\\MDT01\\MDTProduction$\\Scripts\\LiteTouch.vbs**
 2. Select the **Windows 10 Enterprise x64 RTM Upgrade** task sequence, and then click **Next**.
